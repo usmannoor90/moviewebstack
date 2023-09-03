@@ -1,0 +1,11 @@
+
+.genere-list li a.active{
+    color: brown;
+}
+.grid-container{
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+grid-auto-rows: minmax(120px, max-content);
+gap: .5rem;
+padding: .5rem;}

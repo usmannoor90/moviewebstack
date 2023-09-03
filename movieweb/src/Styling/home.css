@@ -1,0 +1,43 @@
+
+
+.input, .input:focus{
+    background-color: white;
+    border: 1px solid black ;
+    color: black;
+    height: 40px;
+}
+.header-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+}
+.header-width-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+}
+.genere-list li{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.genere-list li a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.card{
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+}
+
+.card img{
+    width: 100%;
+}
+.card-shit{
+    padding: 1rem;
+}
